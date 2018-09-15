@@ -1,5 +1,5 @@
 {
     "atom-workspace": {
-        "ctrl-cmd-d": "0Coding:start-dapp-assist"
+        "ctrl-shift-0": "0Coding:open-dapp-assist"
     }
 }

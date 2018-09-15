@@ -2,8 +2,8 @@
     "context-menu": {
         "atom-text-editor": [
             {
-                "label": "Start DApp Assist",
-                "command": "0Coding:start-dapp-assist"
+                "label": "Open DApp Assist",
+                "command": "0Coding:open-dapp-assist"
             }
         ]
     },
@@ -15,8 +15,8 @@
                     "label": "0Coding",
                     "submenu": [
                         {
-                            "label": "Start DApp Assist",
-                            "command": "0Coding:start-dapp-assist"
+                            "label": "Open DApp Assist",
+                            "command": "0Coding:open-dapp-assist"
                         }
                     ]
                 }

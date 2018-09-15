@@ -3,10 +3,9 @@
     "main": "./lib/zerocoding",
     "version": "18.8.3",
     "description": "A few helpful hands to assist you in building and managing your next TrustLess DApp.",
-    "keywords": [
-    ],
+    "keywords": [],
     "activationCommands": {
-        "atom-workspace": "0Coding:start-dapp-assist"
+        "atom-workspace": "0Coding:open-dapp-assist"
     },
     "repository": "https://github.com/atom/zerocoding",
     "license": "MIT",
@@ -14,5 +13,6 @@
         "atom": ">=1.0.0 <2.0.0"
     },
     "dependencies": {
+        "moment": "^2.22.2"
     }
 }

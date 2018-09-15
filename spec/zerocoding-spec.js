@@ -15,7 +15,7 @@ describe('ZeroCoding', () => {
         activationPromise = atom.packages.activatePackage('zerocoding')
     })
 
-    describe('when the 0Coding:start-dapp-assist event is triggered', () => {
+    describe('when the 0Coding:open-dapp-assist event is triggered', () => {
         it('hides and shows the modal panel', () => {
             // Before the activation event the view is not on the DOM, and no panel
             // has been created
@@ -23,7 +23,7 @@ describe('ZeroCoding', () => {
 
             // This is an activation event, triggering it will cause the package to be
             // activated.
-            atom.commands.dispatch(workspaceElement, '0Coding:start-dapp-assist')
+            atom.commands.dispatch(workspaceElement, '0Coding:open-dapp-assist')
 
             waitsForPromise(() => {
                 return activationPromise
@@ -37,7 +37,7 @@ describe('ZeroCoding', () => {
 
                 let zeroCodingPanel = atom.workspace.panelForItem(zeroCodingElement)
                 expect(zeroCodingPanel.isVisible()).toBe(true)
-                atom.commands.dispatch(workspaceElement, '0Coding:start-dapp-assist')
+                atom.commands.dispatch(workspaceElement, '0Coding:open-dapp-assist')
                 expect(zeroCodingPanel.isVisible()).toBe(false)
             })
         })
@@ -55,7 +55,7 @@ describe('ZeroCoding', () => {
 
             // This is an activation event, triggering it causes the package to be
             // activated.
-            atom.commands.dispatch(workspaceElement, '0Coding:start-dapp-assist')
+            atom.commands.dispatch(workspaceElement, '0Coding:open-dapp-assist')
 
             waitsForPromise(() => {
                 return activationPromise
@@ -65,7 +65,7 @@ describe('ZeroCoding', () => {
                 // Now we can test for view visibility
                 let zeroCodingElement = workspaceElement.querySelector('.zerocoding')
                 expect(zeroCodingElement).toBeVisible()
-                atom.commands.dispatch(workspaceElement, '0Coding:start-dapp-assist')
+                atom.commands.dispatch(workspaceElement, '0Coding:open-dapp-assist')
                 expect(zeroCodingElement).not.toBeVisible()
             })
         })

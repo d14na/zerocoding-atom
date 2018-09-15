@@ -1,7 +1,7 @@
 {
     "name": "zerocoding",
     "main": "./lib/zerocoding",
-    "version": "18.9.15",
+    "version": "18.9.14",
     "description": "Build your next Decentralized App (DApp) on the Zeronet's DDoS & Censorship-proof, Auto-scaling, High-performance Content Distribution Network.",
     "keywords": [
         "0net",

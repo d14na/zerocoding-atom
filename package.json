@@ -1,13 +1,24 @@
 {
-    "name": "zerocoding-atom",
+    "name": "zerocoding",
     "main": "./lib/zerocoding",
-    "version": "18.8.3",
-    "description": "A few helpful hands to assist you in building and managing your next TrustLess DApp.",
-    "keywords": [],
+    "version": "18.9.15",
+    "description": "Build your next Decentralized App (DApp) on the Zeronet's DDoS & Censorship-proof, Auto-scaling, High-performance Content Distribution Network.",
+    "keywords": [
+        "0net",
+        "0pen",
+        "zeronet",
+        "dapp",
+        "lapp",
+        "decentralized",
+        "decentralized app",
+        "ddos",
+        "censorship",
+        "cdn"
+    ],
     "activationCommands": {
-        "atom-workspace": "0Coding:open-dapp-assist"
+        "atom-workspace": "ZeroCoding:open-dapp-studio"
     },
-    "repository": "https://github.com/atom/zerocoding",
+    "repository": "https://github.com/d14na/zerocoding-atom",
     "license": "MIT",
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
